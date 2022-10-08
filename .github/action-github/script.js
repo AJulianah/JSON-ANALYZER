@@ -41,17 +41,9 @@ f.Display("Skipped",ratio_skiped);
 const merge = f.Merge(ratio_f);
 
 if(merge){
-	try {
 		core.notice("PR must have Merged");
-	} catch (error) {
-		core.setFailed(error.message);
-	}
 }else{
-	try {
 		core.notice("PR must have Merged");
-	} catch (error) {
-		core.setFailed(error.message);
-	}
 }
 
 
