@@ -27,11 +27,7 @@ function Percent_r(r, total_test){
 }
 
 function Display(res, f){
-	try {
 		core.notice("Total "+res+": "+Math.round(f*100)/100+"%");
-	} catch (error) {
-		core.setFailed(error.message);
-	}
 }
 
 
