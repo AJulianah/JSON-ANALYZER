@@ -1,0 +1,12 @@
+name: "Statistic result of test playwright"
+description: "Dislay on percent the result of test"
+
+runs:
+  using: node12
+  main: index.js
+
+inputs:
+  RESULT_JSON:
+    description: 'Json file to analyze'
+    required: true
+    default: 'result.json'
