@@ -38,13 +38,13 @@ f.Display("Success",ratio_s);
 
 f.Display("Skipped",ratio_skiped);
 
-const merge = f.Merge(ratio_f);
+// const merge = f.Merge(ratio_f);
 
-if(merge){
-		core.notice("PR must have Merged");
-}else{
-		core.notice("PR must have Merged");
-}
+// if(merge){
+// 		core.notice("PR must have Merged");
+// }else{
+// 		core.notice("PR must have Closed");
+// }
 
 
 
