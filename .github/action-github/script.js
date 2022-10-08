@@ -30,7 +30,7 @@ const ratio_f = f.Percent_r(failed, total_test);
 
 const ratio_s = f.Percent_r(success, total_test);
 
-const ratio_skiped = f.Percent_r(skiped, total_test);
+const ratio_skiped = f.Percent_r(skipped, total_test);
 
 f.Display("Failed",ratio_f);
 
