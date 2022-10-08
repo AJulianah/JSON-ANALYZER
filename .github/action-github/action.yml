@@ -3,7 +3,7 @@ description: "Dislay on percent the result of test"
 
 runs:
   using: node12
-  main: index.js
+  main: script.js
 
 inputs:
   RESULT_JSON:
