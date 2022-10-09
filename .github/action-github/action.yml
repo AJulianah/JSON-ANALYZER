@@ -8,5 +8,10 @@ runs:
 inputs:
   RESULT_JSON:
     description: 'Json file to analyze'
-    required: true
     default: 'result.json'
+    
+outputs:
+  FAILED:
+    description: 'The number of failed test'
+
+
