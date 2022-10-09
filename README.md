@@ -1,3 +1,5 @@
 # Analyze playwright result
 
-First test
+- First test
+- Second test
+
