@@ -1,5 +1,6 @@
 
 const f = require("./fonction.js")
+const cor = require("@actions/core")
 
 let failed = 0;
 
@@ -37,6 +38,10 @@ f.Display("Failed",ratio_f);
 f.Display("Success",ratio_s);
 
 f.Display("Skipped",ratio_skiped);
+
+cor.setOutput("FAILED", ratio_f);
+
+
 
 // const merge = f.Merge(ratio_f);
 
