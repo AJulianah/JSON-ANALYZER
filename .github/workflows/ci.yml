@@ -15,7 +15,7 @@ jobs:
         uses: ./.github/action-github
         id: FAILED
       - name: Calculator
-        run: expr ${{ steps.FAILED.outputs.FAILED }} + 10.231
+        run: expr $((${{ steps.FAILED.outputs.FAILED }} + 10.231))
       
   close_PR:
     runs-on: ubuntu-latest
