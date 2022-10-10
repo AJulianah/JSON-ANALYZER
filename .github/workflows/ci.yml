@@ -15,7 +15,7 @@ jobs:
         uses: ./.github/action-github
         id: FAILED
       - name: Calculator
-        run: typeofvar ${{ test.steps.FAILED.outputs.FAILED }}
+        run: typeofvar ${{ steps.FAILED.outputs.FAILED }}
       
   close_PR:
     runs-on: ubuntu-latest
