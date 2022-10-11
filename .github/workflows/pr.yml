@@ -14,7 +14,7 @@ jobs:
         id: FAILED
       - name: Calculator
         run: exprR ${{ steps.FAILED.outputs.FAILED }}+10.231 | bc
-            - name: Create Pull Request
+      - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
-          branch: upstream-changes
+          branch: master
