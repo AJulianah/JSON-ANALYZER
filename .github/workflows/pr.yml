@@ -1,7 +1,7 @@
 name: Playwright Tests
 on:
   push:
-    branches: AJulianah-patch1
+    branches: AJulianah-patch-1
   
 jobs:
   test:
